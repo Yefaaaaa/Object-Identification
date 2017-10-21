@@ -17,8 +17,6 @@ Download the images will cost you a long time. After I downloaded the image, I f
 
 The images are ready to use but it doesnot fit the OpenCV module usage, so, I need to translate images to the certain format. I will use the OpenCV on Linux to train the image information to the .xml file. In my case, the equipment is limited. If I train the huge image set, the machine may run for one or two days. Normally, researchers upload the images to the online platform and then remote train the image.
 
-I need to write one more function to collect all the images information for training. 
-
 3. Tanning
 
 Move all the images and the .txt file to Linux platform. In this step, I used the OpenCV build-in function to train the data. It doesnot require too much coding skills but you need to know how to run the Linux command. At the end, it will generate the .xml file for the image you trained. I can apply the Python OpenCV module to this the .xml file. 
